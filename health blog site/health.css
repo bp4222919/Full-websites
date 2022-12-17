@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+:root {
+    --main-color: #92bb46;
+    --main-color2: #ffffff;
+    --main-color3: #719430;
+    --font-color: rgb(12, 11, 11);
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s linear;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+    width: .8rem;
+}
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+    background:var(--main-color3);
+    border-radius: 4rem;
+}
+body {
+    background: var(--bg);
+}
+
+/* ==============================================heading style start==================================== */
+.heading1{
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    padding: 50px 0 0 40px;
+    font-family: Brush Script Std, cursive;
+    font-weight: 100;
+    font-style: italic;
+}
+.heading2{
+    font-size: 45px;
+    font-weight: 200;
+    font-family: Brush Script Std, cursive;
+    color: white;
+    font-style: italic;
+}
+/* ==============================================heading style end==================================== */
+
+/* ==============================================main style start===================================== */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    animation: change 10s infinite ease-in-out;
+    z-index: -1;
+}
+@keyframes change{
+    50%
+    {  
+        background-image: url(img2.jpg);
+    }
+    100%
+    {
+        background-image: url(img1.jpg);  
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    width: 100%;
+    height: auto;
+    /* background: var(--main-color); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* box-shadow: 10px 10px 20px grey; */
+}
+
+.header .logo img {
+    width: 300px;
+}
+
+.header .link {
+    position: relative;
+    left: 270px;
+}
+
+.header .link a {
+    font-size: 15px;
+    margin-right: 20px;
+    color: white;
+}
+
+.header .link .aa {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.header .link ion-icon {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-btn,
+#close {
+    display: none;
+}
+
+.icon ion-icon {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.main h1 i{
+    text-align: center;
+    font-size: 45px;
+    font-family: Brush Script Std, cursive;
+}
+.main h1,p{
+    position: relative;
+    top: 200px;
+    color: white;
+}
+.main p{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.main button{
+    width: 120px;
+    height: 40px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 50px;
+    margin-top: 250px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main button:hover{
+    background-color: var(--main-color3);
+    border: none;
+}
+.main .btn{
+    background-color: var(--main-color3);
+    border: none;
+}
+.main .btn:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+header.scrolled {
+    background: #0a0a0a;
+  }
+  main {
+    height: 200vh;
+  }
+/* ==============================================main style end===================================== */
+
+/* =================================================about style start=================================== */
+
+.about{
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    background: white;
+}
+.box{
+    width: 50%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    float: left;
+    margin-left: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box1 h1 span{
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 30px;
+}
+.box1 h1 {
+    color: gray;
+}
+.box1 p {
+    font-size: 15px;
+    padding: 0 100px 0 40px;
+    line-height: 30px;
+    margin-top: -150px;
+    color: gray;
+}
+.box1 span p{
+    font-size: 25px;
+    margin-top: 100px;
+    color: var(--main-color);
+    font-family: Brush Script MT;
+}
+.box2{
+    background-image: url(img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -120px;
+}
+.box2 button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-left: 40px;
+    margin-top: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box2 button:hover{
+    width: 200px;
+}
+.box2 p{
+    font-size: 20px;
+    margin-top: -150px;
+    margin-left: 40px;
+}
+/* =================================================about style end=================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================nutrition style start=================================== */
+
+.nutrition{
+    width: 100%;
+    height: 93vh;
+    background: var(--main-color);
+}
+.nutrition .box-container{
+    width: 100%;
+    height: 100px;
+    /* background: red; */
+}
+.nutrition .box-container .boxa1{
+    width: 300px;
+    height: 170px;
+    background-color: var(--main-color3);
+    margin-top: 15px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nutrition .box-container .boxa2{
+    width: 700px;
+    height: 170px;
+    /* background:gray; */
+    float: left;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nutrition .box-container .boxa3{
+    width: 318px;
+}
+.img_box{
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.img_box .card{
+    width: 440px;
+    height: 400px;
+    cursor: pointer;
+    overflow: hidden;
+    /* background-color: yellow; */
+
+}
+.img_box .card img{
+    width: 440px;
+    height: 400px;
+}
+.img_box .card:hover .text{
+    transform: scale(1.1);
+}
+.img_box .card:before {
+    content: '';
+    width: 440px;
+    height: 400px;
+    position: absolute;
+    opacity: 0;
+    /* border-radius: 10px; */
+    transition: .5s;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    opacity: .8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.img_box .card:hover:before {
+    opacity: 0;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    background-image: url(img4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    transition: 1s;
+}
+.text h2{
+    padding: 15px;
+    backdrop-filter: blur(20px);
+}
+.text2 h2{
+    padding: 15px;
+    backdrop-filter: blur(20px);
+}
+
+
+
+
+
+
+.text3 h2{
+    padding: 15px;
+    backdrop-filter: blur(20px);
+}
+.text:hover h2{
+    display: none;
+}
+.text2{
+    background-image: url(img5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text3{
+    background-image: url(img6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* =================================================nutrition style end=================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================service style start=================================== */
+
+.service{
+    width: 100%;
+    height:auto;
+    /* background: red; */
+    padding-top: 100px;
+    background-image: url(img7.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 100px; */
+}
+.service_main{
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    /* background-color: gray; */
+
+}
+
+
+
+
+
+
+
+
+.srrvice_box{
+    width: 400px;
+    height: 240px;
+    /* background-color: yellow; */
+    margin: 10px 20px;
+    display: inline-block;
+}
+.srrvice_box:nth-child(1){
+    margin-left: 40px;
+}
+.srrvice_box:nth-child(4){
+    margin-left: 40px;
+}
+.srrvice_box .a{
+    width: 100px;
+    height: 100%;
+    /* background-color: pink; */
+    float: left;
+}
+.srrvice_box .a i{
+    font-size: 60px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.srrvice_box .a ion-icon{
+    font-size: 55px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.srrvice_box .b{
+    width: 270px;
+    height: 100%;
+    /* background-color: #62f676; */
+    float: left;
+    margin-left: 30px;
+}
+.srrvice_box .b h2{
+    font-size: 30px;
+    font-weight: 300;
+}
+.srrvice_box .b p{
+    font-size: 18px;
+    margin-top: -190px;
+    padding-right: 10px;
+    margin-left: 0px;
+    color: gray;
+    line-height: 30px;
+    font-weight: 200;
+}
+/* ===================================================service style end=================================== */
+
+
+
+
+
+
+
+
+
+
+/* ==================================================should style start========================================= */
+
+.should{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.should_box{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    float: left;
+}
+.should_box img{
+    width: 100%;
+    height: 100%;
+}
+.should_box h1{
+    margin-left: 80px;
+    margin-top: 100px;
+    color: #0a0a0a;
+}
+.should_box h1 span{
+    color: var(--main-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.should_box p {
+    text-align: justify;
+    font-size: 20px;
+    padding: 0px 100px;
+    margin-top: -180px;
+    margin-left: 20px;
+    color: gray;
+}
+
+/* ==================================================should style end========================================= */
+
+/* ===================================================fixe style start========================================== */
+
+.fixe{
+    width: 100%;
+    height: 700px;
+    background-image: url(img9.jpg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    bottom: 0px;
+    z-index: -1; 
+}
+
+
+
+
+
+
+.fixe img{
+    width: 100%;
+    height: 100%;
+}
+/* ===================================================fixe style end========================================== */
+/* =======================================================touch style start================================ */
+
+.touch{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to left, rgba(0, 0, 0, .8)50%, rgba(0, 0, 0, 0.8)50%);
+    text-align: center;
+}
+.touch h1{
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+.touch p{
+    margin-top: -300px;
+    font-size: 20px;
+    padding: 0 300px;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+.touch button{
+    width: 130px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    font: 20px;
+    margin-top: 250px;
+}
+.touch button:hover{
+    width: 150px;
+}
+/* =======================================================touch style end================================ */
+/* ============================================================footer style start=============================== */
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_box{
+    width: 400px;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.footer_box h2{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 5rem;
+    color: white;
+}
+.footer_box p{
+    font-size: 20px;
+    padding: 5rem;
+    margin-top: -270px;
+    font-weight: 200;
+}
+
+/* ============================================================footer style end=============================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================================================footer2 stayle start=============================== */
+.footer2 {
+	background: var(--main-color3);
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.footer2 .credit {
+	font-size: 20px;
+	flex: 1 1 45rem;
+	color: var(--font);
+	font-weight: lighter;
+	padding: 1rem 4rem;
+}
+.footer2 .credit span {
+	color:white;
+}
+.footer2 .links {
+	display: flex;
+	flex: 1 1 35rem;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+.footer2 .links a {
+	color: var(--font);
+	font-size: 1.5rem;
+}
+
+.footer2 .links a:hover {
+	color: var(--main-color);
+}
+
+/* ===========================================================footer2 stayle start=============================== */
+
+/* =======================================================mybtn style start======================================= */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to left, rgba(0, 0, 0, .5)50%, rgba(0, 0, 0, 0.5)50%);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background: var(--main-color3);
+  }
+
+/* =======================================================mybtn style end======================================= */

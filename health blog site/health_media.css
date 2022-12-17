@@ -1,0 +1,202 @@
+@media only screen and (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 1.5rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .header .link {
+        position: relative;
+        left: 0;
+    }
+
+    .nutrition {
+        width: 100%;
+    }
+
+    .page {
+        width: 100%;
+    }
+
+    .nutrition .box-container .boxa1 {
+        display: none;
+    }
+
+    .nutrition .box-container .boxa2 {
+        width: 100%;
+        margin: auto;
+        /* background: red; */
+    }
+
+    .img_box .card {
+        width: 300px;
+        height: 300px;
+    }
+
+    .img_box .card:before {
+        content: '';
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        opacity: 0;
+        /* border-radius: 10px; */
+        transition: .5s;
+        opacity: .8;
+    }
+
+    .should_box h1 {
+        margin-left: 0px;
+        margin-top: 0px;
+        color: #0a0a0a;
+    }
+
+    .should_box p {
+        text-align: justify;
+        font-size: 20px;
+        padding: 0px 20px;
+        margin-top: -180px;
+        margin-left: 20px;
+        line-height: 30px;
+        color: gray;
+
+    }
+
+    .should_box {
+        width: 100%;
+        height: 400px;
+        float: none;
+        background-color: white;
+    }
+
+    .should {
+        height: auto;
+        z-index: 9999999;
+    }
+
+    .should_box h1 {
+        margin-left: 0px;
+        margin-top: 00px;
+        color: #0a0a0a;
+    }
+
+    .fixe {
+        height: 600px;
+        position: fixed;
+        bottom: 0;
+    }
+
+    .touch {
+        width: 100%;
+        height: auto;
+        position: relative;
+        /* top: 500px; */
+        padding-bottom: 100px;
+    }
+
+    .touch h1 {
+        position: relative;
+        top: 0px;
+    }
+
+    .touch p {
+        margin-top: -150px;
+        padding: 0 100px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #menu-btn {
+        display: inline-block;
+        background: var(--black);
+    }
+
+    #close {
+        background: var(--black);
+    }
+
+    #header .link {
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        background: #92bb46;
+        padding: 2rem;
+        transition: .5s;
+        z-index: 999999;
+    }
+
+    #header .link a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 20px;
+        text-align: left;
+        z-index: 9999999;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about .box {
+        width: 100%;
+        float: none;
+    }
+
+    .about .box2 {
+        display: none;
+    }
+
+    .nutrition {
+        height: auto;
+    }
+
+    .img_box {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .img_box .card {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .img_box .card:before {
+        width: 92.5%;
+    }
+
+    .srrvice_box {
+        width: 95%;
+        height: 150px;
+        padding-right: 30px;
+    }
+
+    .srrvice_box .b {
+        width: 80%;
+    }
+
+    .footer_box {
+        width: 100%;
+        display: block;
+    }
+
+    .footer_box h2 {
+        padding: 1rem;
+    }
+
+    .footer_box p {
+        padding: 1rem;
+        margin-top: -200px;
+        font-size: 15px;
+
+    }
+}
