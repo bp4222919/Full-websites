@@ -391,31 +391,7 @@ body {
     left: 480px;
     top: -400px;
 }
-
-
-
-
-
-
-
 /* ======================Enfold style end============================= */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ===========================Last style start============================ */
 .last{
     width: 100%;
@@ -435,20 +411,6 @@ body {
     bottom: 0;left: 30%;
     z-index: -1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .last_box{
     width: 450px;
     height: 400px;
@@ -470,19 +432,6 @@ body {
     font-weight: 300;
 }
 /* ===========================Last style end============================= */
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* =========================portfoio style start============================== */
 .portfoio{
     width: 100%;
@@ -496,15 +445,6 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
 .col{
     width: 320px;
     height: 400px;
@@ -522,24 +462,6 @@ body {
     height: 100%;
     opacity: .5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .col_img:hover img{
     transform: scale(1.1);
     opacity: 1;
@@ -556,23 +478,6 @@ body {
     padding: 20px 0 0 20px;
     opacity: .7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .col_text span{
     font-size: 15px;
     padding: 100px 0 0 20px;
@@ -580,24 +485,7 @@ body {
     position: relative;
     top: 10px;
 }
-
-
 /* =========================portfoio style end=============================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ============================contact style start================================= */
 .contact{
     width: 100%;
@@ -618,15 +506,6 @@ body {
     background-position: center;
     z-index: -3;
 }
-
-
-
-
-
-
-
-
-
 .contact::after{
     content: " ";
     width: 40%;
@@ -646,22 +525,6 @@ body {
     top: 100px;
     margin: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .form h2{
     font-size: 30px;
     font-weight: 100;
@@ -678,25 +541,6 @@ body {
     padding: 20px;
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .form form #Message{
     width: 90%;
     height: 200px;
@@ -711,44 +555,12 @@ body {
     margin-left: 5%;
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .form button:hover{
     cursor: pointer;
     background: var(--main-color);
     color: #eee;
 }
-
 /* ============================contact style end================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ===============================footer style start================================= */
 .footer {
 	background: var(--main-color);
@@ -766,22 +578,6 @@ body {
 .footer .credit span {
 	color:white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer .links {
 	display: flex;
 	flex: 1 1 35rem;
@@ -798,27 +594,6 @@ body {
     padding: 10px;
     border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .iconss ion-icon:hover{
     background: #eee;
     
